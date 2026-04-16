@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-SpotifyProject-BDV"
+		},
+		"ADLSGen2_LS_accountKey": {
+			"value": ""
+		},
+		"AzureSQL_LS_password": {
+			"value": ""
+		},
+		"ADLSGen2_LS_properties_typeProperties_url": {
+			"value": "https://saspotifyprojectbdv.dfs.core.windows.net/"
+		},
+		"AzureSQL_LS_properties_typeProperties_server": {
+			"value": "sqldbserverspotifyprojectbdv.database.windows.net"
+		},
+		"AzureSQL_LS_properties_typeProperties_database": {
+			"value": "SQLDB-SpotifyProject-BDV"
+		},
+		"AzureSQL_LS_properties_typeProperties_userName": {
+			"value": "brunoadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
