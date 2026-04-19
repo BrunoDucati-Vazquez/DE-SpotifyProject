@@ -2,6 +2,8 @@
 
 > A modern data engineering project built on **Azure**, ingesting Spotify-like data from an **Azure SQL Database** into a **Data Lake (ADLS Gen2)** using **Azure Data Factory** with incremental loading and CDC tracking.
 
+<img width="894" height="501" alt="image" src="https://github.com/user-attachments/assets/d4d382e8-7a35-428e-ae91-cf9ad05b2862" />
+
 ---
 
 ## 📐 Architecture Overview
