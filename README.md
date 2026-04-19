@@ -4,6 +4,17 @@
 
 <img width="894" height="501" alt="image" src="https://github.com/user-attachments/assets/d4d382e8-7a35-428e-ae91-cf9ad05b2862" />
 
+## 🛠️ Tech Stack
+
+- **Azure SQL Database** — Source OLTP system
+- **Azure Data Factory** — Pipeline orchestration
+- **Azure Data Lake Storage Gen2** — Raw and processed data storage (bronze + silver)
+- **Databricks (PySpark)** — Silver layer transformations
+- **Delta Lake** — ACID-compliant storage format for silver tables
+- **Parquet** — Storage format for bronze analytical workloads
+- **JSON** — CDC watermark configuration files
+
+
 ---
 
 ## 📐 Architecture Overview
@@ -438,20 +449,8 @@ spotify_dab/ (Databricks Asset Bundle)
 
 - [x] **Bronze Layer** — Raw ingestion from SQL to ADLS Gen2 with CDC
 - [x] **Silver Layer** — Cleaned and conformed data with data quality checks
-- [ ] **Gold Layer** — Aggregated business-ready tables and metrics
-- [ ] **Semantic Layer / Reporting** — Power BI or Synapse Analytics integration
+- [x] **Gold Layer** — Aggregated business-ready tables and metrics
 
----
-
-## 🛠️ Tech Stack
-
-- **Azure SQL Database** — Source OLTP system
-- **Azure Data Factory** — Pipeline orchestration
-- **Azure Data Lake Storage Gen2** — Raw and processed data storage (bronze + silver)
-- **Databricks (PySpark)** — Silver layer transformations
-- **Delta Lake** — ACID-compliant storage format for silver tables
-- **Parquet** — Storage format for bronze analytical workloads
-- **JSON** — CDC watermark configuration files
 
 ---
 
